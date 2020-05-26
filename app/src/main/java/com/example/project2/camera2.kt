@@ -18,7 +18,7 @@ import java.util.jar.Manifest
 class camera2 : AppCompatActivity() {
 
     private val IMAGE_CAPTURE_CODE = 1001
-    private val PERMISSION_CODE = 1000;
+    private val PERMISSION_CODE = 1000
     var image_uri: Uri? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {

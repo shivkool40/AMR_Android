@@ -97,6 +97,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:layout_marginLeft="10dp"
+                android:onClick="customOnClick"
                 android:text="101"
                 android:textColor="@color/blackcolor"
                 android:textSize="22sp"
@@ -106,11 +107,11 @@
                 android:id="@+id/Room101Before"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="61dp"
-                android:layout_marginLeft="61dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
                 android:layout_toEndOf="@id/Room101"
                 android:layout_toRightOf="@+id/Room101"
-                android:text="-"
+                android:text="22222"
                 android:textColor="@color/blackcolor"
                 android:textSize="22sp"
                 android:textStyle="bold" />
@@ -119,11 +120,11 @@
                 android:id="@+id/Room101latest"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="36dp"
-                android:layout_marginLeft="36dp"
+                android:layout_marginStart="28dp"
+                android:layout_marginLeft="28dp"
                 android:layout_toEndOf="@id/Room101Before"
                 android:layout_toRightOf="@+id/Room101Before"
-                android:text="-"
+                android:text="22222"
                 android:textColor="@color/blackcolor"
                 android:textSize="22sp"
                 android:textStyle="bold" />
@@ -136,7 +137,7 @@
                 android:layout_marginLeft="33dp"
                 android:layout_toEndOf="@id/Room101latest"
                 android:layout_toRightOf="@+id/Room101latest"
-                android:text="-"
+                android:text="22222"
                 android:textColor="@color/blackcolor"
                 android:textSize="22sp"
                 android:textStyle="bold" />
@@ -150,7 +151,7 @@
     <androidx.cardview.widget.CardView
         android:id="@+id/CardRoom102"
         android:layout_width="match_parent"
-        android:layout_height="52dp"
+        android:layout_height="60dp"
         app:cardCornerRadius="3dp"
         app:cardElevation="3dp"
         app:cardUseCompatPadding="true">
@@ -160,12 +161,13 @@
             android:layout_height="match_parent"
             >
 
-            <TextView
+            <Button
                 android:id="@+id/Room102"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:layout_marginLeft="10dp"
+                android:onClick="customOnClick"
                 android:text="102"
                 android:textColor="@color/blackcolor"
                 android:textSize="22sp"
@@ -175,11 +177,11 @@
                 android:id="@+id/Room102Before"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="60dp"
-                android:layout_marginLeft="60dp"
+                android:layout_marginStart="13dp"
+                android:layout_marginLeft="13dp"
                 android:layout_toEndOf="@id/Room102"
                 android:layout_toRightOf="@+id/Room102"
-                android:text="-"
+                android:text="22222"
                 android:textColor="@color/blackcolor"
                 android:textSize="22sp"
                 android:textStyle="bold" />
@@ -192,7 +194,7 @@
                 android:layout_marginLeft="30dp"
                 android:layout_toEndOf="@id/Room102Before"
                 android:layout_toRightOf="@+id/Room102Before"
-                android:text="-"
+                android:text="22222"
                 android:textColor="@color/blackcolor"
                 android:textSize="22sp"
                 android:textStyle="bold" />
@@ -205,7 +207,7 @@
                 android:layout_marginLeft="39dp"
                 android:layout_toEndOf="@id/Room102latest"
                 android:layout_toRightOf="@+id/Room102latest"
-                android:text="-"
+                android:text="22222"
                 android:textColor="@color/blackcolor"
                 android:textSize="22sp"
                 android:textStyle="bold" />
@@ -219,7 +221,7 @@
     <androidx.cardview.widget.CardView
         android:id="@+id/CardRoom103"
         android:layout_width="match_parent"
-        android:layout_height="52dp"
+        android:layout_height="60dp"
         app:cardCornerRadius="3dp"
         app:cardElevation="3dp"
         app:cardUseCompatPadding="true">
@@ -229,12 +231,13 @@
             android:layout_height="match_parent"
             >
 
-            <TextView
+            <Button
                 android:id="@+id/Room103"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:layout_marginLeft="10dp"
+                android:onClick="customOnClick"
                 android:text="103"
                 android:textColor="@color/blackcolor"
                 android:textSize="22sp"
@@ -244,11 +247,11 @@
                 android:id="@+id/Room103Before"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="60dp"
-                android:layout_marginLeft="60dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
                 android:layout_toEndOf="@id/Room103"
                 android:layout_toRightOf="@+id/Room103"
-                android:text="-"
+                android:text="22222"
                 android:textColor="@color/blackcolor"
                 android:textSize="22sp"
                 android:textStyle="bold" />
@@ -261,7 +264,7 @@
                 android:layout_marginLeft="30dp"
                 android:layout_toEndOf="@id/Room103Before"
                 android:layout_toRightOf="@+id/Room103Before"
-                android:text="-"
+                android:text="22222"
                 android:textColor="@color/blackcolor"
                 android:textSize="22sp"
                 android:textStyle="bold" />
@@ -274,7 +277,7 @@
                 android:layout_marginLeft="39dp"
                 android:layout_toEndOf="@id/Room103latest"
                 android:layout_toRightOf="@+id/Room103latest"
-                android:text="-"
+                android:text="22222"
                 android:textColor="@color/blackcolor"
                 android:textSize="22sp"
                 android:textStyle="bold" />
